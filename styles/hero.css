@@ -7,7 +7,7 @@ section.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    overflow: hidden;
+    /* overflow: hidden; */
 
     & h1 {
         max-width: 40rem;
@@ -134,8 +134,8 @@ section.hero {
             right: 0;
             bottom: 35%;
 
-            transform: translateX(400%);
-            animation: slideIn 2.2s 800ms ease both;
+            transform: translateX(1000%);
+            animation: slideIn 2s 600ms ease both;
         }
     }
 
